@@ -1,0 +1,73 @@
+.form{
+display: grid;
+grid-template-columns: 1fr ;
+grid-gap: 10px;
+}
+
+input {
+    padding: .7rem;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 3px solid rgb(202, 191, 191, 0.5);
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+}
+
+button{
+    cursor: pointer;
+    padding: .5rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(76, 111, 177);
+    color: white;
+
+    outline: none;
+
+}
+
+.exit{
+    background-color: white;
+
+
+    
+    
+}
+
+.done-btn {
+    background-color: white;
+
+}
+
+.fa-check-circle{
+    color: rgb(84, 163, 84);
+}
+
+.fa-times-circle {
+    color: rgb(219, 80, 80);
+}
+
+
+.done p {
+    background-color:rgb(29, 143, 29, 0.2) ;
+    padding: .5rem;
+}
+
+
+.end {
+    color: white;
+    background-color: rgb(218, 28, 28);
+    padding: .8rem;
+}
+
+.done-task {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.done_tasks {
+    display: flex;
+    flex-direction: column;
+}
